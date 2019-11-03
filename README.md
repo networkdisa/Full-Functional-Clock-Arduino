@@ -20,4 +20,5 @@
     <li>Date can set manually through the push buttons.</li>
     <li>Alarm can set manually through the push buttons.</li>
     <li>Display LED color change automatically</li>
+    <li>Time can display 24hour format or 12 hour AM/PM format</li>
   </ul>
