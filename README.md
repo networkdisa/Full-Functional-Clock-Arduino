@@ -65,7 +65,7 @@ Need to run in void setup code block and after first run this code need be comme
 //RTC.adjust(DateTime(__DATE__, __TIME__));  //set RTC time first time,take system time(method-2)
 ```
 <ul>
-    <li>Define seven segment in two dimmentiional array</li>
+    <li>Define seven segment in two dimentiional array</li>
 </ul>
 this array need to be modified according to number of LEDs you use in seven segment.
 
