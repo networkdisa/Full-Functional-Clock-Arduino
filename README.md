@@ -34,7 +34,7 @@ Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullCloc
     <li>Add required libraries </li>
 </ul>
 
-```C
+```C++
 #include <RTClib.h>
 #include <Wire.h>
 #include <FastLED.h>
