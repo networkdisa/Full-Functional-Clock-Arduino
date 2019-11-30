@@ -31,5 +31,11 @@
 Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullClock.ino](https://github.com/networkdisa/Full-Functional-Clock-Arduino/blob/master/12-11-2019_FritzingCompatiable_fullClock.ino "compatiable file")
 
 <ul>
-    <li>Time can set manually through the push buttons.</li>
+    <li>Add required libraries </li>
 </ul>
+```c++
+#include <RTClib.h>
+#include <Wire.h>
+#include <FastLED.h>
+#include "SoftwareSerial.h"
+```
