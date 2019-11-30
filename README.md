@@ -33,6 +33,8 @@ Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullCloc
 <ul>
     <li>Add required libraries </li>
 </ul>
-```C
+```c
+
 #include <RTClib.h>
+
 ```
