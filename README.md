@@ -33,7 +33,9 @@ Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullCloc
 <ul>
     <li>Add required libraries </li>
 </ul>
+
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
 ```
+`$ npm install marked`
