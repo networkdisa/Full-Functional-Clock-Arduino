@@ -27,5 +27,5 @@
     <li>Every hour time tell in clear sound</li>
   </ul>
 
-### **Sketch** 
-![alt text](https://raw.githubusercontent.com/networkdisa/Full-Functional-Clock-Arduino/master/fritzing%20sketch_bb.jpg)
+### **Main Code Modification** 
+Here make changes done relevent to [12-11-2019_FritzingCompatiable_fullClock.ino](https://github.com/networkdisa/Full-Functional-Clock-Arduino/blob/master/12-11-2019_FritzingCompatiable_fullClock.ino "compatiable file")
