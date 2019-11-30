@@ -41,6 +41,29 @@ Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullCloc
 #include "SoftwareSerial.h" //for cummunicate with MP3 module
 ```
 <ul>
+    <li>WS2811 related values</li>
+</ul>
+(3*7)*4 + 2 = 86
+3 - number of LEDs in seven segment one segment.
+7 - above segments seven need to complete seven segment.
+4 - digits four (two for hour/month, two for minute/date),
+2 - seconds indicator.
+
+```C++
+#define NUM_LEDS 86 //(3*7)*4 + 2 = 86
+#define DATA_PIN 7 //data pin for pixel led(OUTPUT)
+CRGB leds[NUM_LEDS]; // Define Pixel LEDs
+```
+<ul>
+    <li>Initial date time set (this can be done trough push buttons too)</li>
+</ul>
+Need to run in void setup code block and after first run tis code need be commented.
+
+```C++
+//RTC.adjust(DateTime(2019, 10, 19, 00, 59, 0)); //YYYY,MM,DD,HH,MIN,Sec ,set RTC time first time(method-1)
+//RTC.adjust(DateTime(__DATE__, __TIME__));  //set RTC time first time,take system time(method-2)
+```
+<ul>
     <li>Add required libraries </li>
 </ul>
 
