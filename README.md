@@ -35,9 +35,19 @@ Here code modification done relevent to [12-11-2019_FritzingCompatiable_fullCloc
 </ul>
 
 ```C++
-#include <RTClib.h>
-#include <Wire.h>
-#include <FastLED.h>
-#include "SoftwareSerial.h"
+#include <RTClib.h>  //for RTC module
+#include <Wire.h>  //L2C communication with RTC module and Arduino
+#include <FastLED.h> //for WS2811
+#include "SoftwareSerial.h" //for cummunicate with MP3 module
 ```
-`$ npm install marked`
+<ul>
+    <li>Add required libraries </li>
+</ul>
+
+```C++
+#include <RTClib.h>  //for RTC module
+#include <Wire.h>  //L2C communication with RTC module and Arduino
+#include <FastLED.h> //for WS2811
+#include "SoftwareSerial.h" //for cummunicate with MP3 module
+```
+
