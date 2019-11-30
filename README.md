@@ -1,4 +1,7 @@
 # Arduino Full Clock
+### **Sketch** 
+![Arduino Full Clock](https://raw.githubusercontent.com/networkdisa/Full-Functional-Clock-Arduino/master/fritzing%20sketch_bb.jpg)
+
 ### **Component list for build test clock** 
 <ol>
   <li>Arduino Uno compatible board.</li>
