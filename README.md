@@ -67,7 +67,7 @@ Need to run in void setup code block and after first run this code need be comme
 <ul>
     <li>Define seven segment in two dimentiional array</li>
 </ul>
-this array need to be modified according to number of LEDs you use in seven segment.
+this array need to be modified according to number of LEDs you are going to use in seven segment.
 
 ```C++
 /*******LED Array******/
@@ -88,7 +88,7 @@ byte digits[11][21] = { //2D array for numbers on seven segments
 <ul>
     <li>Add colors you wish to change while date/time/tempeture display in LEDs</li>
 </ul>
-I changed color rotation execute every 35 seconds while changing time to date and tempeture.
+I changed color rotation execute every 35 seconds, while changing time to date and tempeture.
 
 ```C++
 /*******LED Color Array******/
@@ -108,7 +108,7 @@ int colorRGB[12][3] = {
 }; 
 ```
 <ul>
-    <li>show time in LEDs 24 hour format</li>
+    <li>Show time in LEDs 24 hour format</li>
 </ul>
 Here "ledDisplayGenerator(nowTime, 0, 0);" function sends LEDs to dispaly array parameters.
 
@@ -129,7 +129,7 @@ void timeGetNow(){
 }
 ```
 <ul>
-    <li>show time in LEDs 12 hour AM/PM format.</li>
+    <li>Show time in LEDs 12 hour AM/PM format.</li>
 </ul>
 
 ```C++
@@ -235,7 +235,7 @@ void ledDisplayGenerator(int Now, byte firstCuple, byte secndCuple){
 }
 ```
 <ul>
-    <li>Usable MP3 module serial commands and method of command execute</li>
+    <li>Required MP3 module serial commands and method of command execution</li>
 </ul>
 
 ```C++
