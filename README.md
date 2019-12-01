@@ -44,7 +44,7 @@ Only main and customized code parts explained, all code well commented above lin
 <ul>
     <li>WS2811 related values</li>
 </ul>
-(3*7)*4 + 2 = 86
+(3*7)*4 + 2 = 86</br>
 3 - number of LEDs in seven segment one segment.
 7 - above segments seven need to complete seven segment.
 4 - digits four (two for hour/month, two for minute/date),
